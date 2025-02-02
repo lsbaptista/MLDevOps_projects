@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/dbb58f86564a40d681d5970f81b56bfb/artifacts
+end_time: 1737919256346
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dbb58f86564a40d681d5970f81b56bfb
+run_name: receptive-shark-195
+run_uuid: dbb58f86564a40d681d5970f81b56bfb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737919246397
+status: 3
+tags: []
+user_id: lsbaptista

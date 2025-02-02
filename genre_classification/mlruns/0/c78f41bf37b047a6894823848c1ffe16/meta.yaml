@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/c78f41bf37b047a6894823848c1ffe16/artifacts
+end_time: 1737917278152
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c78f41bf37b047a6894823848c1ffe16
+run_name: aged-zebra-358
+run_uuid: c78f41bf37b047a6894823848c1ffe16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737917270298
+status: 4
+tags: []
+user_id: lsbaptista

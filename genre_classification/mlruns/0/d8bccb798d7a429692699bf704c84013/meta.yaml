@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/d8bccb798d7a429692699bf704c84013/artifacts
+end_time: 1737917270279
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8bccb798d7a429692699bf704c84013
+run_name: aged-shrike-133
+run_uuid: d8bccb798d7a429692699bf704c84013
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737917228653
+status: 3
+tags: []
+user_id: lsbaptista

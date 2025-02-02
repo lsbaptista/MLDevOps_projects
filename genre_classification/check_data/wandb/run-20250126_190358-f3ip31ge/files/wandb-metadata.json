@@ -1,0 +1,40 @@
+{
+  "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-01-26T19:03:59.219466Z",
+  "args": [
+    "-s",
+    "-vv",
+    ".",
+    "--reference_artifact",
+    "exercise_14/preprocessed_data.csv:latest",
+    "--sample_artifact",
+    "preprocessed_data.csv:latest",
+    "--ks_alpha",
+    "0.05"
+  ],
+  "program": "/home/lsbaptista/miniconda3/envs/mlflow-869b81049b7eee5f391db88e96ced2c0759ed88a/bin/pytest",
+  "git": {
+    "remote": "git@github.com:lsbaptista/genre_classification.git",
+    "commit": "b17c0042177f30b6b684c2e38886090f8f5b034d"
+  },
+  "email": "lsbaptista@gmail.com",
+  "root": "/home/lsbaptista/Udacity/genre_classification/check_data",
+  "host": "Home",
+  "executable": "/home/lsbaptista/miniconda3/envs/mlflow-869b81049b7eee5f391db88e96ced2c0759ed88a/bin/python3.10",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "19451183104"
+    }
+  },
+  "memory": {
+    "total": "10348253184"
+  },
+  "cpu": {
+    "count": 2,
+    "countLogical": 4
+  }
+}

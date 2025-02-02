@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/3c3a94e12fe44a9cb36a505fec2fe649/artifacts
+end_time: 1737914591984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c3a94e12fe44a9cb36a505fec2fe649
+run_name: smiling-bass-995
+run_uuid: 3c3a94e12fe44a9cb36a505fec2fe649
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737914587395
+status: 4
+tags: []
+user_id: lsbaptista

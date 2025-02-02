@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/6c36aa4a3a414d58a4c08e59e1c1f1f9/artifacts
+end_time: 1737918870176
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c36aa4a3a414d58a4c08e59e1c1f1f9
+run_name: colorful-doe-190
+run_uuid: 6c36aa4a3a414d58a4c08e59e1c1f1f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737918834274
+status: 3
+tags: []
+user_id: lsbaptista

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/1c266ddd311c43fa8a09e71e0ec629e1/artifacts
+end_time: 1737918884894
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c266ddd311c43fa8a09e71e0ec629e1
+run_name: hilarious-boar-688
+run_uuid: 1c266ddd311c43fa8a09e71e0ec629e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737918756898
+status: 3
+tags: []
+user_id: lsbaptista

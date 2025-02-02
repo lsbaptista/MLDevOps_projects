@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/7df882ad28c34462a7160c83c55495b2/artifacts
+end_time: 1737917040805
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7df882ad28c34462a7160c83c55495b2
+run_name: enthused-mule-226
+run_uuid: 7df882ad28c34462a7160c83c55495b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737916962498
+status: 4
+tags: []
+user_id: lsbaptista

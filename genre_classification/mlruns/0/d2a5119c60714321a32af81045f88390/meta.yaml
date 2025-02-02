@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/d2a5119c60714321a32af81045f88390/artifacts
+end_time: 1737917914889
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d2a5119c60714321a32af81045f88390
+run_name: unique-shoat-466
+run_uuid: d2a5119c60714321a32af81045f88390
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737917833517
+status: 3
+tags: []
+user_id: lsbaptista

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/2d5fba41331045b6aa0ce393a01fecd8/artifacts
+end_time: 1737917779029
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d5fba41331045b6aa0ce393a01fecd8
+run_name: dashing-vole-748
+run_uuid: 2d5fba41331045b6aa0ce393a01fecd8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737917765986
+status: 3
+tags: []
+user_id: lsbaptista

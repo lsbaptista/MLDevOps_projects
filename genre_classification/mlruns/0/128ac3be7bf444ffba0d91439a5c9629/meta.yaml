@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/128ac3be7bf444ffba0d91439a5c9629/artifacts
+end_time: 1737917902044
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 128ac3be7bf444ffba0d91439a5c9629
+run_name: crawling-shrike-128
+run_uuid: 128ac3be7bf444ffba0d91439a5c9629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737917864538
+status: 3
+tags: []
+user_id: lsbaptista

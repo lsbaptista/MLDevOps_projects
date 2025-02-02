@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/61a60230d38b46489228a810b9eac717/artifacts
+end_time: 1737919271938
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61a60230d38b46489228a810b9eac717
+run_name: dazzling-moose-844
+run_uuid: 61a60230d38b46489228a810b9eac717
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737919256366
+status: 3
+tags: []
+user_id: lsbaptista

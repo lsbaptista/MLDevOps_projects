@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/3198a7cbf36843ffbfb0782954f13d4a/artifacts
+end_time: 1737916023296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3198a7cbf36843ffbfb0782954f13d4a
+run_name: blushing-moth-789
+run_uuid: 3198a7cbf36843ffbfb0782954f13d4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737916014762
+status: 4
+tags: []
+user_id: lsbaptista

@@ -1,0 +1,41 @@
+{
+  "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-01-26T18:26:50.506504Z",
+  "args": [
+    "--input_artifact",
+    "raw_data.parquet:latest",
+    "--artifact_name",
+    "preprocessed_data.csv",
+    "--artifact_type",
+    "preprocessed_data",
+    "--artifact_description",
+    "Data after preprocessing"
+  ],
+  "program": "/home/lsbaptista/Udacity/genre_classification/preprocess/run.py",
+  "codePath": "preprocess/run.py",
+  "git": {
+    "remote": "git@github.com:lsbaptista/genre_classification.git",
+    "commit": "b17c0042177f30b6b684c2e38886090f8f5b034d"
+  },
+  "email": "lsbaptista@gmail.com",
+  "root": "/home/lsbaptista/Udacity/genre_classification/preprocess",
+  "host": "Home",
+  "executable": "/home/lsbaptista/miniconda3/envs/mlflow-6a0e1c8c024ebcaecd4412c50e40b0b143440662/bin/python",
+  "codePathLocal": "run.py",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "18013241344"
+    }
+  },
+  "memory": {
+    "total": "10348253184"
+  },
+  "cpu": {
+    "count": 2,
+    "countLogical": 4
+  }
+}

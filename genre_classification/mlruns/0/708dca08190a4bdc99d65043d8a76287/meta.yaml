@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/708dca08190a4bdc99d65043d8a76287/artifacts
+end_time: 1737917219068
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 708dca08190a4bdc99d65043d8a76287
+run_name: lyrical-foal-380
+run_uuid: 708dca08190a4bdc99d65043d8a76287
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737917211169
+status: 3
+tags: []
+user_id: lsbaptista

@@ -1,0 +1,45 @@
+{
+  "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-01-26T19:21:18.078657Z",
+  "args": [
+    "--train_data",
+    "data_train.csv:latest",
+    "--model_config",
+    "/home/lsbaptista/Udacity/genre_classification/outputs/2025-01-26/19-20-21/random_forest_config.yml",
+    "--export_artifact",
+    "model_export",
+    "--random_seed",
+    "42",
+    "--val_size",
+    "0.3",
+    "--stratify",
+    "genre"
+  ],
+  "program": "/home/lsbaptista/Udacity/genre_classification/random_forest/run.py",
+  "codePath": "random_forest/run.py",
+  "git": {
+    "remote": "git@github.com:lsbaptista/genre_classification.git",
+    "commit": "b17c0042177f30b6b684c2e38886090f8f5b034d"
+  },
+  "email": "lsbaptista@gmail.com",
+  "root": "/home/lsbaptista/Udacity/genre_classification/random_forest",
+  "host": "Home",
+  "executable": "/home/lsbaptista/miniconda3/envs/mlflow-a9b02ad0973a25d3a79e117758eb737147407144/bin/python",
+  "codePathLocal": "run.py",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "19632631808"
+    }
+  },
+  "memory": {
+    "total": "10348253184"
+  },
+  "cpu": {
+    "count": 2,
+    "countLogical": 4
+  }
+}

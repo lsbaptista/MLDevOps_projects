@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/04fe55ccf6334abd811c5e3f3e7d7dd1/artifacts
+end_time: 1737917442852
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 04fe55ccf6334abd811c5e3f3e7d7dd1
+run_name: melodic-mink-699
+run_uuid: 04fe55ccf6334abd811c5e3f3e7d7dd1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737917431365
+status: 3
+tags: []
+user_id: lsbaptista

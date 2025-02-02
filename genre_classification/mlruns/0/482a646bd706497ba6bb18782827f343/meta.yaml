@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/482a646bd706497ba6bb18782827f343/artifacts
+end_time: 1737917864513
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 482a646bd706497ba6bb18782827f343
+run_name: kindly-jay-298
+run_uuid: 482a646bd706497ba6bb18782827f343
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737917853278
+status: 3
+tags: []
+user_id: lsbaptista

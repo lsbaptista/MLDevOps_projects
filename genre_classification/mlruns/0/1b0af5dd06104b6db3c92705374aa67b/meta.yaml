@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/1b0af5dd06104b6db3c92705374aa67b/artifacts
+end_time: 1737913523308
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b0af5dd06104b6db3c92705374aa67b
+run_name: serious-hawk-999
+run_uuid: 1b0af5dd06104b6db3c92705374aa67b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737913378855
+status: 4
+tags: []
+user_id: lsbaptista

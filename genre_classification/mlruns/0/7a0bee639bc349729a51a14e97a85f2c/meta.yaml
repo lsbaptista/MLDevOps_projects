@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/7a0bee639bc349729a51a14e97a85f2c/artifacts
+end_time: 1737917040498
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a0bee639bc349729a51a14e97a85f2c
+run_name: marvelous-cod-419
+run_uuid: 7a0bee639bc349729a51a14e97a85f2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737917031970
+status: 4
+tags: []
+user_id: lsbaptista

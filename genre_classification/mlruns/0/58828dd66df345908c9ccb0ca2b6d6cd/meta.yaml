@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/58828dd66df345908c9ccb0ca2b6d6cd/artifacts
+end_time: 1737918821956
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 58828dd66df345908c9ccb0ca2b6d6cd
+run_name: selective-trout-869
+run_uuid: 58828dd66df345908c9ccb0ca2b6d6cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737918781063
+status: 3
+tags: []
+user_id: lsbaptista

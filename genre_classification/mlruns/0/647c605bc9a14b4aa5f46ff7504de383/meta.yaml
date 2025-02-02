@@ -1,0 +1,15 @@
+artifact_uri: file:///home/lsbaptista/Udacity/genre_classification/mlruns/0/647c605bc9a14b4aa5f46ff7504de383/artifacts
+end_time: 1737915135588
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 647c605bc9a14b4aa5f46ff7504de383
+run_name: burly-lark-694
+run_uuid: 647c605bc9a14b4aa5f46ff7504de383
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737915127441
+status: 3
+tags: []
+user_id: lsbaptista
