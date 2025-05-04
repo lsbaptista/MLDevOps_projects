@@ -1,0 +1,1 @@
+*/10 * * * * /home/user/miniconda3/envs/attrition/bin/python /home/user/Projets/dynamic_risk_assessment_system/starter/fullprocess.py

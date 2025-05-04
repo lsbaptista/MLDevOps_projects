@@ -1,0 +1,25 @@
+# .pre-commit-config.yaml
+repos:
+  - repo: https://github.com/pycqa/flake8
+    rev: 6.1.0
+    hooks:
+      - id: flake8
+        name: flake8
+        description: Run flake8 linting
+        types: [python]
+        args: ["--ignore=E501"]
+        stages: [pre-commit]
+
+  - repo: local
+    hooks:
+      - id: pytest
+        name: pytest
+        entry: pytest -p no:warnings
+        language: system
+        pass_filenames: false
+        always_run: true
+        types: [python]
+        stages: [pre-commit]
+
+
+

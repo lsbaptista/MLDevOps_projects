@@ -1,0 +1,639 @@
+2025-04-18 12:07:36,917 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-18 12:07:36,918 - ERROR - An error occurred during ingestion: [Errno 2] No such file or directory: 'practicedata'
+Traceback (most recent call last):
+  File "/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingestion.py", line 66, in <module>
+    merge_multiple_dataframes()
+  File "/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingestion.py", line 23, in merge_multiple_dataframes
+    filenames = os.listdir(input_folder_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'practicedata'
+2025-04-18 12:11:00,187 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-18 12:11:00,188 - ERROR - Error reading dataset1.csv: [Errno 2] No such file or directory: 'practicedata/dataset1.csv'
+2025-04-18 12:11:00,189 - ERROR - Error reading dataset2.csv: [Errno 2] No such file or directory: 'practicedata/dataset2.csv'
+2025-04-18 12:11:00,189 - WARNING - No CSV files were processed; nothing to merge.
+2025-04-18 12:12:22,958 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-18 12:12:22,959 - ERROR - An error occurred during ingestion: expected str, bytes or os.PathLike object, not list
+Traceback (most recent call last):
+  File "/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingestion.py", line 66, in <module>
+    merge_multiple_dataframes()
+  File "/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingestion.py", line 33, in merge_multiple_dataframes
+    file_path = os.path.join(filenames, filename)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen posixpath>", line 76, in join
+TypeError: expected str, bytes or os.PathLike object, not list
+2025-04-18 12:12:55,578 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-18 12:12:55,579 - ERROR - An error occurred during ingestion: expected str, bytes or os.PathLike object, not list
+Traceback (most recent call last):
+  File "/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingestion.py", line 66, in <module>
+    merge_multiple_dataframes()
+  File "/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingestion.py", line 33, in merge_multiple_dataframes
+    file_path = os.path.join(filenames, filename)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen posixpath>", line 76, in join
+TypeError: expected str, bytes or os.PathLike object, not list
+2025-04-18 12:15:20,321 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-18 12:15:20,322 - ERROR - Error reading dataset1.csv: [Errno 2] No such file or directory: 'practicedata/dataset1.csv'
+2025-04-18 12:15:20,323 - ERROR - Error reading dataset2.csv: [Errno 2] No such file or directory: 'practicedata/dataset2.csv'
+2025-04-18 12:15:20,323 - WARNING - No CSV files were processed; nothing to merge.
+2025-04-18 12:16:50,915 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-18 12:16:50,918 - INFO - Processed file: dataset1.csv
+2025-04-18 12:16:50,919 - INFO - Processed file: dataset2.csv
+2025-04-18 12:16:50,923 - INFO - Merged data written to ingesteddata/finaldata.csv
+2025-04-18 12:17:29,448 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-18 12:17:29,451 - INFO - Processed file: dataset1.csv
+2025-04-18 12:17:29,452 - INFO - Processed file: dataset2.csv
+2025-04-18 12:17:29,456 - INFO - Merged data written to ingesteddata/finaldata.csv
+2025-04-18 12:20:20,063 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-18 12:20:20,067 - INFO - Processed file: dataset1.csv
+2025-04-18 12:20:20,068 - INFO - Processed file: dataset2.csv
+2025-04-18 12:20:20,072 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicedata/finaldata.csv
+2025-04-18 12:22:16,426 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-18 12:22:16,429 - INFO - Processed file: dataset1.csv
+2025-04-18 12:22:16,430 - INFO - Processed file: dataset2.csv
+2025-04-18 12:22:16,432 - INFO - Processed file: finaldata.csv
+2025-04-18 12:22:16,437 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicedata/finaldata.csv
+2025-04-18 12:26:57,735 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-18 12:26:57,750 - INFO - Processed file: dataset1.csv
+2025-04-18 12:26:57,753 - INFO - Processed file: dataset2.csv
+2025-04-18 12:26:57,759 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-20 09:54:58,957 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:06:13,727 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:06:48,336 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:08:34,200 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:10:49,472 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:10:49,495 - ERROR - Error in training model: The 'multi_class' parameter of LogisticRegression must be a str among {'ovr', 'auto', 'multinomial'}. Got 'warn' instead.
+2025-04-20 10:11:37,774 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:11:37,789 - ERROR - Error in training model: [Errno 2] No such file or directory: '/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl'
+2025-04-20 10:18:16,780 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:18:16,785 - INFO - Model training completed.
+2025-04-20 10:20:06,156 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:20:06,166 - ERROR - Error in training model: file must have a 'write' attribute
+2025-04-20 10:23:16,695 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:23:16,699 - ERROR - Error in training model: [Errno 20] Not a directory: '/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl'
+2025-04-20 10:25:34,272 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:25:34,277 - ERROR - Error in training model: [Errno 20] Not a directory: '/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl'
+2025-04-20 10:25:45,745 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:25:45,749 - ERROR - Error in training model: [Errno 20] Not a directory: '/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl'
+2025-04-20 10:26:44,065 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:26:44,070 - ERROR - Error in training model: unsupported operand type(s) for +: '_io.BufferedWriter' and 'str'
+2025-04-20 10:28:35,076 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:28:35,080 - ERROR - Error in training model: unsupported operand type(s) for +: '_io.BufferedWriter' and 'str'
+2025-04-20 10:30:23,689 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:30:23,696 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-20 10:44:34,212 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:44:34,213 - ERROR - Error in training model: [Errno 2] No such file or directory: '/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/testdata/finaldata.csv'
+2025-04-20 10:45:13,237 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:45:13,241 - ERROR - Error in training model: 'str' object has no attribute 'predict'
+2025-04-20 10:48:04,538 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:48:31,074 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:50:35,100 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 10:51:42,125 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 11:09:20,199 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 11:09:20,199 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/latestmodel.pkl
+2025-04-20 11:09:20,200 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/latestscore.txt to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/latestscore.txt
+2025-04-20 11:09:20,210 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/ingestedfiles.txt to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/ingestedfiles.txt
+2025-04-20 11:09:20,211 - INFO - Model deployment completed successfully.
+2025-04-20 20:05:40,676 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 20:05:40,681 - INFO - Processed file: dataset1.csv
+2025-04-20 20:05:40,683 - INFO - Processed file: dataset2.csv
+2025-04-20 20:05:40,691 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-20 20:05:41,981 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-20 20:05:42,005 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 19:17:41,469 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 19:17:41,470 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 19:17:41,898 - INFO - Confusion matrix saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/confusionmatrix.png
+2025-04-23 20:06:14,852 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:06:15,782 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:06:15,782 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:06:16,440 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:06:16,596 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:06:16,597 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:08:36,256 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:08:37,085 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:08:37,101 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:08:38,873 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:08:38,880 - INFO - Processed file: dataset1.csv
+2025-04-23 20:08:38,884 - INFO - Processed file: dataset2.csv
+2025-04-23 20:08:38,900 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:08:40,188 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:08:40,199 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:09:56,868 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:09:57,505 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:09:57,505 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:11:18,219 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:11:18,998 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:11:18,998 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:11:24,997 - ERROR - Error during prediction
+Traceback (most recent call last):
+  File "/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/app.py", line 36, in predict
+    predictions = model_predictions(os.path.join(script_dir, file_path))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/diagnostics.py", line 31, in model_predictions
+    with open(model_file_path, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/starter/testdata/testdata.csv'
+2025-04-23 20:11:25,422 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:11:25,424 - INFO - Processed file: dataset1.csv
+2025-04-23 20:11:25,426 - INFO - Processed file: dataset2.csv
+2025-04-23 20:11:25,429 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:11:26,516 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:11:26,521 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:12:15,470 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:12:16,126 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:12:16,127 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:12:24,012 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:12:24,790 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:12:24,791 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:12:27,122 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:12:27,125 - INFO - Processed file: dataset1.csv
+2025-04-23 20:12:27,126 - INFO - Processed file: dataset2.csv
+2025-04-23 20:12:27,131 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:12:28,241 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:12:28,246 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:16:05,081 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:16:05,752 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:16:05,752 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:16:12,413 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:16:12,416 - INFO - Processed file: dataset1.csv
+2025-04-23 20:16:12,417 - INFO - Processed file: dataset2.csv
+2025-04-23 20:16:12,420 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:16:13,535 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:16:13,540 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:20:17,746 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:20:18,468 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:20:18,469 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:21:17,921 - INFO - Received file path: /testdata/testdata.csv
+2025-04-23 20:21:18,301 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:21:18,303 - INFO - Processed file: dataset1.csv
+2025-04-23 20:21:18,305 - INFO - Processed file: dataset2.csv
+2025-04-23 20:21:18,308 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:21:19,394 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:21:19,399 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:22:31,547 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:22:32,320 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:22:32,321 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:24:51,630 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:24:52,352 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:24:52,352 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:25:02,891 - INFO - Received file path: /testdata/testdata.csv
+2025-04-23 20:25:03,465 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:25:03,468 - INFO - Processed file: dataset1.csv
+2025-04-23 20:25:03,470 - INFO - Processed file: dataset2.csv
+2025-04-23 20:25:03,474 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:25:04,377 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:25:04,384 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:27:30,773 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:27:31,403 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:27:31,403 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:27:34,686 - INFO - Received file path: /testdata/testdata.csv
+2025-04-23 20:27:35,052 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:27:35,055 - INFO - Processed file: dataset1.csv
+2025-04-23 20:27:35,056 - INFO - Processed file: dataset2.csv
+2025-04-23 20:27:35,062 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:27:36,280 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:27:36,286 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:28:41,934 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:28:42,654 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:28:42,654 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:29:00,231 - INFO - Received file path: /testdata/testdata.csv
+2025-04-23 20:29:00,613 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:29:00,616 - INFO - Processed file: dataset1.csv
+2025-04-23 20:29:00,617 - INFO - Processed file: dataset2.csv
+2025-04-23 20:29:00,621 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:29:01,994 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:29:01,999 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:33:05,998 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:33:06,833 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:33:06,834 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:33:28,091 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:33:28,874 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:33:28,874 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:33:37,006 - INFO - Received file path: /testdata/testdata.csv
+2025-04-23 20:33:37,464 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:33:37,467 - INFO - Processed file: dataset1.csv
+2025-04-23 20:33:37,468 - INFO - Processed file: dataset2.csv
+2025-04-23 20:33:37,471 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:33:38,782 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:33:38,787 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:34:39,404 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:34:39,586 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:34:39,587 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:36:00,239 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:36:00,857 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:36:00,857 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:36:31,628 - INFO - Received file path: /testdata/testdata.csv
+2025-04-23 20:36:32,090 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:36:32,094 - INFO - Processed file: dataset1.csv
+2025-04-23 20:36:32,095 - INFO - Processed file: dataset2.csv
+2025-04-23 20:36:32,101 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:36:33,448 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:36:33,453 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:45:04,478 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:45:05,202 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:45:05,202 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:45:15,081 - INFO - Received file path: testdata/testdata.csv
+2025-04-23 20:45:15,577 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:45:15,579 - INFO - Processed file: dataset1.csv
+2025-04-23 20:45:15,581 - INFO - Processed file: dataset2.csv
+2025-04-23 20:45:15,585 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:45:16,136 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:45:16,140 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:47:29,972 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:47:30,742 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:47:30,742 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:47:34,532 - INFO - Received file path: testdata/testdata.csv
+2025-04-23 20:47:34,963 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:47:34,965 - INFO - Processed file: dataset1.csv
+2025-04-23 20:47:34,967 - INFO - Processed file: dataset2.csv
+2025-04-23 20:47:34,973 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:47:35,969 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:47:35,974 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:47:47,733 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:47:48,401 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:47:48,402 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:49:48,600 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:49:49,361 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:49:49,361 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:50:07,589 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:50:08,497 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:50:08,498 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:50:13,541 - INFO - Received file path: testdata/testdata.csv
+2025-04-23 20:50:13,544 - INFO - Received file path: testdata/testdata.csv
+2025-04-23 20:50:13,910 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:50:13,913 - INFO - Processed file: dataset1.csv
+2025-04-23 20:50:13,915 - INFO - Processed file: dataset2.csv
+2025-04-23 20:50:13,918 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-23 20:50:15,328 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:50:15,334 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/practicemodels/trainedmodel.pkl
+2025-04-23 20:50:52,535 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:50:53,359 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:50:53,360 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:51:03,300 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:51:04,002 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:51:04,002 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:51:36,293 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:51:36,452 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-23 20:51:36,452 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:06:35,265 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:06:36,022 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:06:36,202 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:06:36,204 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:06:36,206 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:06:36,881 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:06:36,882 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:06:36,882 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 21:06:36,887 - INFO - Processed file: dataset3.csv
+2025-04-24 21:06:36,889 - INFO - Processed file: dataset4.csv
+2025-04-24 21:06:36,901 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:10:02,329 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:10:03,049 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:10:03,138 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:10:03,138 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:10:03,139 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:10:03,483 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:10:03,483 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:10:03,483 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 21:10:03,487 - INFO - Processed file: dataset3.csv
+2025-04-24 21:10:03,488 - INFO - Processed file: dataset4.csv
+2025-04-24 21:10:03,493 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:10:03,494 - INFO - Scoring the current deployed model on new data.
+2025-04-24 21:10:03,509 - INFO - Old score: 0.5714285714285714, New score: 0.6923076923076923
+2025-04-24 21:10:03,509 - INFO - No model drift detected. Exiting process.
+2025-04-24 21:12:02,518 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:12:03,253 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:12:03,353 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:12:03,354 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:12:03,355 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:12:03,719 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:12:03,720 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:12:03,720 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 21:12:03,722 - INFO - Processed file: dataset3.csv
+2025-04-24 21:12:03,724 - INFO - Processed file: dataset4.csv
+2025-04-24 21:12:03,728 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:12:03,728 - INFO - Scoring the current deployed model on new data.
+2025-04-24 21:12:03,740 - INFO - Old score: 0.5714285714285714, New score: 0.6923076923076923
+2025-04-24 21:12:03,740 - INFO - No model drift detected. Exiting process.
+2025-04-24 21:13:45,165 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:13:45,785 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:13:45,893 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:13:45,894 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:13:45,895 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:13:46,256 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:13:46,256 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:13:46,257 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 21:13:46,259 - INFO - Processed file: dataset3.csv
+2025-04-24 21:13:46,260 - INFO - Processed file: dataset4.csv
+2025-04-24 21:13:46,266 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:13:46,266 - INFO - Scoring the current deployed model on new data.
+2025-04-24 21:13:46,275 - INFO - Old score: 0.5714285714285714, New score: 0.6923076923076923
+2025-04-24 21:13:46,275 - INFO - No model drift detected. Exiting process.
+2025-04-24 21:14:43,990 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:14:36,642 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:14:36,736 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:14:36,736 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:14:36,737 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:14:37,176 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:14:37,177 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:14:37,177 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 21:14:37,181 - INFO - Processed file: dataset3.csv
+2025-04-24 21:14:37,182 - INFO - Processed file: dataset4.csv
+2025-04-24 21:14:37,188 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:14:37,189 - INFO - Scoring the current deployed model on new data.
+2025-04-24 21:14:37,206 - INFO - Old score: 0.8714285714285714, New score: 0.6923076923076923
+2025-04-24 21:14:37,207 - INFO - Model drift detected. Proceeding with retraining and redeployment.
+2025-04-24 21:14:37,207 - INFO - Retraining the model.
+2025-04-24 21:14:37,225 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 21:14:37,225 - INFO - Re-deploying the model.
+2025-04-24 21:17:51,556 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:17:51,855 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:17:51,944 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:17:51,946 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:17:51,947 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:17:52,339 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:17:52,339 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:17:52,340 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 21:17:52,342 - INFO - Processed file: dataset3.csv
+2025-04-24 21:17:52,344 - INFO - Processed file: dataset4.csv
+2025-04-24 21:17:52,351 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:17:52,352 - INFO - Scoring the current deployed model on new data.
+2025-04-24 21:17:52,359 - INFO - Old score: 0.8714285714285714, New score: 0.6923076923076923
+2025-04-24 21:17:52,359 - INFO - Model drift detected. Proceeding with retraining and redeployment.
+2025-04-24 21:17:52,360 - INFO - Retraining the model.
+2025-04-24 21:17:52,367 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 21:17:52,368 - INFO - Re-deploying the model.
+2025-04-24 21:17:52,368 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/trainedmodel.pkl
+2025-04-24 21:17:52,370 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/latestscore.txt to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/latestscore.txt
+2025-04-24 21:17:52,371 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/ingestedfiles.txt to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/ingestedfiles.txt
+2025-04-24 21:17:52,372 - INFO - Model deployment completed successfully.
+2025-04-24 21:17:52,372 - INFO - Running diagnostics...
+2025-04-24 21:17:52,839 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:17:52,842 - INFO - Processed file: dataset3.csv
+2025-04-24 21:17:52,843 - INFO - Processed file: dataset4.csv
+2025-04-24 21:17:52,850 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:17:54,080 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:17:54,085 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 21:18:06,633 - INFO - Generating confusion matrix report...
+2025-04-24 21:24:02,366 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:24:02,497 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:24:02,580 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:24:02,583 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:24:02,584 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:24:02,926 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:24:02,926 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:24:02,926 - INFO - No new files found. Exiting process.
+2025-04-24 21:25:20,729 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:25:21,327 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:25:21,408 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:25:21,409 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:25:21,413 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:25:21,767 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:25:21,768 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:25:21,768 - INFO - No new files found. Exiting process.
+2025-04-24 21:26:38,128 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:26:39,105 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:26:39,203 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:26:39,204 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:26:39,205 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:26:39,656 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:26:39,656 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:26:39,657 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 21:26:39,660 - INFO - Processed file: dataset3.csv
+2025-04-24 21:26:39,661 - INFO - Processed file: dataset4.csv
+2025-04-24 21:26:39,666 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:26:39,667 - INFO - Scoring the current deployed model on new data.
+2025-04-24 21:26:39,680 - INFO - Old score: 0.8, New score: 0.6923076923076923
+2025-04-24 21:26:39,680 - INFO - Model drift detected. Proceeding with retraining and redeployment.
+2025-04-24 21:26:39,680 - INFO - Retraining the model.
+2025-04-24 21:26:39,698 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 21:26:39,698 - INFO - Re-deploying the model.
+2025-04-24 21:26:39,699 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/latestmodel.pkl
+2025-04-24 21:26:39,700 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/latestscore.txt to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/latestscore.txt
+2025-04-24 21:26:39,701 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/ingestedfiles.txt to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/ingestedfiles.txt
+2025-04-24 21:26:39,701 - INFO - Model deployment completed successfully.
+2025-04-24 21:26:39,701 - INFO - Running diagnostics...
+2025-04-24 21:26:40,177 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:26:40,179 - INFO - Processed file: dataset3.csv
+2025-04-24 21:26:40,181 - INFO - Processed file: dataset4.csv
+2025-04-24 21:26:40,188 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:26:41,486 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:26:41,492 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 21:26:45,669 - INFO - Generating confusion matrix report...
+2025-04-24 21:39:21,880 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:39:14,505 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:39:14,602 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:39:14,603 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:39:14,606 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:39:15,032 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:39:15,032 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:39:15,032 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 21:39:15,035 - INFO - Processed file: dataset3.csv
+2025-04-24 21:39:15,036 - INFO - Processed file: dataset4.csv
+2025-04-24 21:39:15,039 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:39:15,040 - INFO - Scoring the current deployed model on new data.
+2025-04-24 21:39:15,047 - INFO - Old score: 0.9, New score: 0.5454545454545454
+2025-04-24 21:39:15,047 - INFO - Model drift detected. Proceeding with retraining and redeployment.
+2025-04-24 21:39:15,048 - INFO - Retraining the model.
+2025-04-24 21:39:15,059 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 21:39:15,059 - INFO - Re-deploying the model.
+2025-04-24 21:39:15,060 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/latestmodel.pkl
+2025-04-24 21:39:15,060 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/latestscore.txt to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/latestscore.txt
+2025-04-24 21:39:15,061 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/ingestedfiles.txt to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/ingestedfiles.txt
+2025-04-24 21:39:15,061 - INFO - Model deployment completed successfully.
+2025-04-24 21:39:15,061 - INFO - Running diagnostics...
+2025-04-24 21:39:15,518 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:39:15,521 - INFO - Processed file: dataset3.csv
+2025-04-24 21:39:15,523 - INFO - Processed file: dataset4.csv
+2025-04-24 21:39:15,533 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:39:16,607 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:39:16,611 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 21:39:20,380 - INFO - Generating confusion matrix report...
+2025-04-24 21:39:20,858 - INFO - Confusion matrix saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/confusionmatrix.png
+2025-04-24 21:39:20,859 - INFO - Pipeline execution completed successfully.
+2025-04-24 21:41:14,163 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:41:14,393 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:41:14,489 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:41:14,490 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:41:14,491 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:41:14,886 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:41:14,886 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 21:41:14,886 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 21:41:14,889 - INFO - Processed file: dataset3.csv
+2025-04-24 21:41:14,890 - INFO - Processed file: dataset4.csv
+2025-04-24 21:41:14,895 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 21:41:14,895 - INFO - Scoring the current deployed model on new data.
+2025-04-24 21:41:14,905 - INFO - Old score: 0.5454545454545454, New score: 0.5454545454545454
+2025-04-24 21:41:14,905 - INFO - No model drift detected. Exiting process.
+2025-04-24 22:02:55,921 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:02:56,659 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:02:56,749 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:02:56,750 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:02:56,751 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:03:04,617 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:03:04,618 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:03:04,627 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 22:03:04,631 - INFO - Processed file: dataset3.csv
+2025-04-24 22:03:04,634 - INFO - Processed file: dataset4.csv
+2025-04-24 22:03:04,649 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 22:03:04,650 - INFO - Scoring the current deployed model on new data.
+2025-04-24 22:03:04,660 - INFO - Old score: 0.5454545454545454, New score: 0.5454545454545454
+2025-04-24 22:03:04,660 - INFO - Generating confusion matrix report...
+2025-04-24 22:02:57,007 - INFO - Confusion matrix saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/confusionmatrix.png
+2025-04-24 22:02:57,007 - INFO - Calling API endpoints and saving responses.
+2025-04-24 22:02:57,245 - INFO - Pipeline execution completed successfully.
+2025-04-24 22:08:07,364 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:07,966 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:07,966 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:08,571 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:09,360 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:09,360 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:22,493 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:22,682 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:22,778 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:22,779 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:22,780 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:23,158 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:23,158 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:23,159 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 22:08:23,161 - INFO - Processed file: dataset3.csv
+2025-04-24 22:08:23,162 - INFO - Processed file: dataset4.csv
+2025-04-24 22:08:23,166 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 22:08:23,169 - INFO - Scoring the current deployed model on new data.
+2025-04-24 22:08:23,177 - INFO - Old score: 0.5454545454545454, New score: 0.5454545454545454
+2025-04-24 22:08:23,178 - INFO - Generating confusion matrix report...
+2025-04-24 22:08:23,497 - INFO - Confusion matrix saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/confusionmatrix.png
+2025-04-24 22:08:23,497 - INFO - Calling API endpoints and saving responses.
+2025-04-24 22:08:23,653 - INFO - Received file path: ingesteddata/finaldata.csv
+2025-04-24 22:08:23,656 - INFO - Predictions made successfully.
+2025-04-24 22:08:24,156 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:24,160 - INFO - Processed file: dataset3.csv
+2025-04-24 22:08:24,162 - INFO - Processed file: dataset4.csv
+2025-04-24 22:08:24,166 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 22:08:25,265 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:08:25,270 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 22:08:29,007 - INFO - Pipeline execution completed successfully.
+2025-04-24 22:10:37,335 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:10:37,964 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:10:45,572 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:10:45,573 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:10:45,574 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:10:37,970 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:10:37,971 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:10:37,972 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 22:10:37,974 - INFO - Processed file: dataset3.csv
+2025-04-24 22:10:37,975 - INFO - Processed file: dataset4.csv
+2025-04-24 22:10:37,981 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 22:10:37,981 - INFO - Scoring the current deployed model on new data.
+2025-04-24 22:10:37,988 - INFO - Old score: 0.5154545454545454, New score: 0.5454545454545454
+2025-04-24 22:10:37,989 - INFO - Generating confusion matrix report...
+2025-04-24 22:10:38,306 - INFO - Confusion matrix saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/confusionmatrix.png
+2025-04-24 22:10:38,307 - INFO - Calling API endpoints and saving responses.
+2025-04-24 22:10:38,535 - INFO - Received file path: ingesteddata/finaldata.csv
+2025-04-24 22:10:38,540 - INFO - Predictions made successfully.
+2025-04-24 22:10:38,940 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:10:38,943 - INFO - Processed file: dataset3.csv
+2025-04-24 22:10:38,944 - INFO - Processed file: dataset4.csv
+2025-04-24 22:10:38,948 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 22:10:40,053 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:10:40,058 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 22:10:43,692 - INFO - Pipeline execution completed successfully.
+2025-04-24 22:11:20,202 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:20,784 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:20,867 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:20,867 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:20,869 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:21,277 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:21,277 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:21,278 - INFO - New files found. Proceeding with ingestion.
+2025-04-24 22:11:21,280 - INFO - Processed file: dataset3.csv
+2025-04-24 22:11:21,281 - INFO - Processed file: dataset4.csv
+2025-04-24 22:11:21,285 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 22:11:21,286 - INFO - Scoring the current deployed model on new data.
+2025-04-24 22:11:21,294 - INFO - Old score: 0.8, New score: 0.5454545454545454
+2025-04-24 22:11:21,294 - INFO - Model drift detected. Proceeding with retraining and redeployment.
+2025-04-24 22:11:21,295 - INFO - Retraining the model.
+2025-04-24 22:11:21,299 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 22:11:21,299 - INFO - Re-deploying the model.
+2025-04-24 22:11:21,299 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/latestmodel.pkl
+2025-04-24 22:11:21,300 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/latestscore.txt to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/latestscore.txt
+2025-04-24 22:11:21,300 - INFO - Copied /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/ingestedfiles.txt to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/production_deployment/ingestedfiles.txt
+2025-04-24 22:11:21,301 - INFO - Model deployment completed successfully.
+2025-04-24 22:11:21,301 - INFO - Running diagnostics...
+2025-04-24 22:11:21,681 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:21,684 - INFO - Processed file: dataset3.csv
+2025-04-24 22:11:21,686 - INFO - Processed file: dataset4.csv
+2025-04-24 22:11:21,691 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 22:11:30,580 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:30,585 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 22:11:26,464 - INFO - Generating confusion matrix report...
+2025-04-24 22:11:26,733 - INFO - Confusion matrix saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/confusionmatrix.png
+2025-04-24 22:11:26,734 - INFO - Calling API endpoints and saving responses.
+2025-04-24 22:11:26,869 - INFO - Received file path: ingesteddata/finaldata.csv
+2025-04-24 22:11:26,872 - INFO - Predictions made successfully.
+2025-04-24 22:11:27,249 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:27,253 - INFO - Processed file: dataset3.csv
+2025-04-24 22:11:27,256 - INFO - Processed file: dataset4.csv
+2025-04-24 22:11:27,265 - INFO - Merged data written to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/ingesteddata/finaldata.csv
+2025-04-24 22:11:36,285 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:11:36,289 - INFO - Model saved to /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter/models/trainedmodel.pkl
+2025-04-24 22:11:40,078 - INFO - Pipeline execution completed successfully.
+2025-04-24 22:19:56,348 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:19:57,090 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:19:57,091 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:20:49,299 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:20:50,003 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:20:50,004 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:21:15,255 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:21:16,093 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:21:16,094 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:21:44,183 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:21:44,949 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:21:44,949 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:22:10,483 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:22:11,139 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:22:11,139 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:30,718 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:31,490 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:31,491 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:30,280 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:31,007 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:31,008 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:31,101 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:31,101 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:31,508 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:31,508 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:23:31,508 - INFO - No new files found. Exiting process.
+2025-04-24 22:26:01,218 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:26:02,163 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:26:02,164 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:27:00,804 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:27:01,586 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:27:01,586 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:27:40,660 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:27:41,295 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:27:41,296 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:28:26,099 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:28:27,144 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:28:27,145 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:28:58,258 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:28:58,985 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:28:58,986 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:33:25,195 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:33:25,838 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:33:25,839 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:08,194 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:08,766 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:08,766 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:09,774 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:10,449 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:10,450 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:10,452 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:10,453 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:10,815 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:10,816 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:35:10,816 - INFO - No new files found. Exiting process.
+2025-04-24 22:50:59,782 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:51:00,356 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:51:00,357 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:51:00,867 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:51:01,458 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
+2025-04-24 22:51:01,459 - INFO - Script directory: /home/lsbaptista/Projets/dynamic_risk_assessment_system/starter
